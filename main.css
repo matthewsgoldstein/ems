@@ -98,6 +98,12 @@ navbar {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #nav {
+    flex-direction: column;
+  }
+}
+
 .fa.fa-user {
   color: lightgray;
   transition: .2s;
