@@ -62,23 +62,6 @@ navbar {
   text-align: center;
 }
 
-#maintext {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 28px;
-  font-family: 'Montserrat', sans-serif;
-  margin-right: 70px;
-  margin-left: 70px;
-  margin-bottom: 30px;
-  margin-top: -30px;
-  color: gray;
-}
-
-#maintext > p {
-  text-align: center;
-}
-
 #elements {
   display: flex;
   flex-direction: row;
@@ -96,33 +79,10 @@ navbar {
   #elements {
     flex-direction: column;
   }
-}
 
-.fa.fa-user {
-  color: lightgray;
-  transition: .2s;
-}
-
-.fa.fa-user:hover {
-  color: #C74E6B;
-}
-
-.fa.fa-graduation-cap {
-  color: lightgray;
-  transition: .2s;
-}
-
-.fa.fa-graduation-cap:hover {
-  color: #8AD07D  ;
-}
-
-.fa.fa-home {
-  color: lightgray;
-  transition: .2s;
-}
-
-.fa.fa-home:hover {
-  color: #CD91D3;
+  .element {
+    margin-bottom: 50px;
+  }
 }
 
 .element {
@@ -158,6 +118,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 20px;
   margin-left: -10px;
   margin-right: -10px;
   background-color: #fafafa;
