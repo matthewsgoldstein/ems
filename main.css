@@ -1,0 +1,44 @@
+body {
+  background-color: #ffffff;
+}
+
+navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+#logoimg {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#bigtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 48px;
+  font-family:'Montserrat', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
