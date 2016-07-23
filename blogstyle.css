@@ -3,43 +3,22 @@ body {
 }
 
 navbar {
-  width: 100%;
+  width: 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  position: fixed;
+  justify-content: flex-start;;
+  position: absolute;
   z-index: 9999;
-  background-color: #fafafa;
+  background-color: #ffffff;
   margin-top: -10px;
   margin-left: -10px;
 }
 
 #logoimg {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   margin: 20px;
-}
-
-#nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  margin-right: 80px;
-  margin-top: 60px;
-}
-
-#nav > a {
-  color: #575757;
-  text-decoration: none;
-  transition: .2s;
-  text-align: center;
-}
-
-#nav > a:hover {
-  color: gray;
 }
 
 #main {
@@ -52,8 +31,7 @@ navbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 120px;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: gray;
@@ -71,7 +49,7 @@ navbar {
   flex-direction: column;
   justify-content: center;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 #altbigtext > p {
@@ -109,7 +87,7 @@ navbar {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-right: 100px;
   margin-bottom: 100px;
 }
